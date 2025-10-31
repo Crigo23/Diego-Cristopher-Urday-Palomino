@@ -19,7 +19,9 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            background-image: url('https://wallpapers.com/wallpapers/cyber-binary-codes-in-blue-2vxo833e5tmqvdlh.html');
+            background-image: url('https://wallpapers.com/images/hd/cyber-binary-codes-in-blue-2vxo833e5tmqvdlh.jpg');
+            background-size: cover;
+            background-attachment: fixed;
         }
 
         header {
@@ -43,6 +45,17 @@
             font-size: 1.2em;
             margin-top: 10px;
             color: #4072c7;
+        }
+
+        /* FOTO EN EL HEADER */
+        .header-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 3px solid #4072c7;
+            box-shadow: 0 0 15px #4072c7;
+            margin-top: 20px;
+            object-fit: cover;
         }
 
         .main-content {
@@ -184,6 +197,9 @@
     <header>
         <h1>Diego Cristopher Urday Palomino</h1>
         <p>Ciencia de la Computación.</p>
+
+        <!-- FOTO DEBAJO DEL NOMBRE -->
+        <img src="foto.jpg" alt="Foto de Diego Urday" class="header-photo">
     </header>
 
     <div class="main-content">
@@ -192,7 +208,7 @@
             <p>Mi nombre es Diego Cristopher Urday Palomino. Soy estudiante de Ciencia de la Computación.</p>
             <div class="info">
                 <div>
-                    <p><strong>Nombre:</strong>Diego Cristopher Urday Palomino</p>
+                    <p><strong>Nombre:</strong> Diego Cristopher Urday Palomino</p>
                     <p><strong>Edad:</strong> 19</p>
                     <p><strong>Correo:</strong> diego.urday.palomino@ucsp.edu.pe</p>
                 </div>
@@ -236,4 +252,3 @@
 
 </body>
 </html>
-NO
