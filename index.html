@@ -52,12 +52,13 @@
         .header-photo {
             width: 180px;
             height: 180px;
-            border-radius: 50%;
             border: 3px solid #4072c7;
             box-shadow: 0 0 15px #4072c7;
             margin-top: 20px;
             object-fit: cover;
+            border-radius: 0; /* Contorno cuadrado */
         }
+
 
         .main-content {
             display: flex;
@@ -197,10 +198,10 @@
 
     <header>
         <h1>Diego Cristopher Urday Palomino</h1>
-        <p>Ciencias de la Computación.</p>
 
         <!-- FOTO DEBAJO DEL NOMBRE -->
         <img src="foto.jpg" class="header-photo">
+        <p>Ciencias de la Computación.</p>
     </header>
 
     <div class="main-content">
